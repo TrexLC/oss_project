@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>LC</title>
+  <%- include head %>
+</head>
+<body>
+  <div class="logo">
+    <a class="login_logo_bg" href="javascript:;"></a>
+  </div>
+  
+  <div class="form-box">
+    <form action="/users/login" method="post">
+      <input type="text" name="username" value="" placeholder="请输入用户名">
+      <input type="password" name="password" value="" placeholder="请输入密码">
+      <input type="submit" name="" value="登录">
+    </form>
+    <div>没有账号，<a href="/regist">立即注册</a>！</div>
+    <div><a href="/regist ">管理员登录</a></div>
+  </div>
+  
+</body>
+<footer>
+  <%- include footer %>
+</footer>
+</html>
